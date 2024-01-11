@@ -1,4 +1,4 @@
-# Free Open Source Portfolio Project Repository for New Students #
+# Free Open Source Portfolio Project Repository for New Students 
 
 This repository provides a free and open-source starting point for new students to build a stunning portfolio website using React, Vite, and Browsing Router. Whether you're a complete beginner or have some basic programming experience, this project is designed to be easy to follow and customize, helping you showcase your skills and projects to potential employers or schools.
 
@@ -13,14 +13,14 @@ This repository provides a free and open-source starting point for new students 
     Beginner-Friendly: The code is well-organized and documented, making it easy for beginners to understand and modify.
     Customizable: Tailor the design and functionality of your portfolio to your unique style and needs.
 
-# Benefits for New Students:#
+# Benefits for New Students:
 
     Learn in-demand skills: Gain practical experience with React, Vite, and Browsing Router, which are widely used in the modern web development world.
     Build a professional portfolio: Showcase your projects and skills in a polished and impressive way.
     Open source and collaborative: Learn from and contribute to a community of developers working on the same project.
     Confidence booster: Seeing your own portfolio come to life is a great way to boost your confidence in your abilities.
 
-# Getting Started:#
+# Getting Started:
 
     Clone the repository to your local machine.
     Install the necessary dependencies using the command npm install.
@@ -28,7 +28,7 @@ This repository provides a free and open-source starting point for new students 
     Open http://localhost:5173 in your browser to see your portfolio.
     Explore the code, make changes, and customize your portfolio to your liking.
 
-# Additional Resources:#
+# Additional Resources:
 
     The project repository on GitHub: https://github.com/talukdersoumen/talukdersoumen.github.io
     React documentation: https://legacy.reactjs.org/docs/getting-started.html
