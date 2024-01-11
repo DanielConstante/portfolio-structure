@@ -30,10 +30,10 @@ This repository provides a free and open-source starting point for new students 
 
 # Additional Resources:
 
-    The project repository on GitHub: https://github.com/talukdersoumen/talukdersoumen.github.io
-    React documentation: https://legacy.reactjs.org/docs/getting-started.html
-    Vite documentation: https://v3.vitejs.dev/guide/
-    Browsing Router documentation: https://reactrouter.com/
+    The project repository on GitHub: (https://github.com/talukdersoumen/talukdersoumen.github.io)
+    React documentation: (https://legacy.reactjs.org/docs/getting-started.html)
+    Vite documentation: (https://v3.vitejs.dev/guide/)
+    Browsing Router documentation: (https://reactrouter.com/)
 
 We encourage you to fork the repository, make it your own, and share your creations with the community!
 
