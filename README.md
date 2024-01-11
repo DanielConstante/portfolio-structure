@@ -8,15 +8,15 @@ follow and customize, helping you showcase your skills and projects
 to potential employers or schools.
 
 ✨ Key Features:
-    `*` React: Leverage the power and flexibility of React, a popular 
-    `*` React: Leverage the power and flexibility of React, a popular JavaScript library for building user interfaces.
-    `*` Vite: Enjoy a blazing-fast development experience with Vite, a next-generation bundler that provides hot reloading and server-side rendering.
-    `*` Browsing Router: Implement smooth and dynamic navigation between different sections of your portfolio.
-    `*` Material UI: Access a rich library of pre-built, customizable UI components for a polished aesthetic.
-    `*` Styled Components: Seamlessly integrate styling directly within your React components for a streamlined workflow.
-    `*` Fully Responsive: Your portfolio will look great on any device, from desktops to mobile phones.
-    `*` Beginner-Friendly: The code is well-organized and documented, making it easy for beginners to understand and modify.
-    `*` Customizable: Tailor the design and functionality of your portfolio to your unique style and needs.
+    `*` React: Leverage the power and flexibility of React, a popular <br>
+    `*` React: Leverage the power and flexibility of React, a popular JavaScript library for building user interfaces.<br>
+    `*` Vite: Enjoy a blazing-fast development experience with Vite, a next-generation bundler that provides hot reloading and server-side rendering.<br>
+    `*` Browsing Router: Implement smooth and dynamic navigation between different sections of your portfolio.<br>
+    `*` Material UI: Access a rich library of pre-built, customizable UI components for a polished aesthetic.<br>
+    `*` Styled Components: Seamlessly integrate styling directly within your React components for a streamlined workflow.<br>
+    `*` Fully Responsive: Your portfolio will look great on any device, from desktops to mobile phones.<br>
+    `*` Beginner-Friendly: The code is well-organized and documented, making it easy for beginners to understand and modify.<br>
+    `*` Customizable: Tailor the design and functionality of your portfolio to your unique style and needs.<br>
 
 # Benefits for New Students:
 
@@ -35,10 +35,9 @@ to potential employers or schools.
 
 # Additional Resources:
 
-[The project repository on GitHub:](https://github.com/talukdersoumen/talukdersoumen.github.io)
-[React documentation:](https://legacy.reactjs.org/docs/getting-started.html)
-[Vite documentation:](https://v3.vitejs.dev/guide/)
-[Browsing Router documentation:](https://reactrouter.com/)
+[React documentation](https://legacy.reactjs.org/docs/getting-started.html)
+[Vite documentation](https://v3.vitejs.dev/guide/)
+[Browsing Router documentation](https://reactrouter.com/)
 
 We encourage you to fork the repository, make it your own, and share your creations with the community!
 
