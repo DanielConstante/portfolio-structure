@@ -6,9 +6,6 @@ function Home() {
   return (
     <>
       <h1>Home Page</h1>
-      <Button component={Link} to="/projects">
-        Click Me
-      </Button>
     </>
   )
 }
