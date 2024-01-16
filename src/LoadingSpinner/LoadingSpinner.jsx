@@ -4,11 +4,8 @@ import LoadingDots from "../../src/assets/pre.svg"
 
 function LoadingSpinner() {
       return (
-
             <Styled.Loader>
             </Styled.Loader>
-
-
       )
 }
 export default LoadingSpinner;

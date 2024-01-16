@@ -16,12 +16,15 @@ import { BrowserRouter as Router, Link, Link as RouterLink } from "react-router-
 import styled from 'styled-components';
 import { ListItemIcon } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import HomeIcon from '@mui/icons-material/Home';
+import PersonIcon from '@mui/icons-material/Person';
+import TextSnippetIcon from '@mui/icons-material/TextSnippet';
+import DvrIcon from '@mui/icons-material/Dvr';
+import ContactPageIcon from '@mui/icons-material/ContactPage';
+import ArticleIcon from '@mui/icons-material/Article';
 
 
 const drawerWidth = 240;
-const navItems = ['Home', 'About', 'Projects', 'Resume', 'Contact Me'];
-
-
 
 function NavBar(props) {
       const { window } = props;
@@ -40,33 +43,39 @@ function NavBar(props) {
                   <Divider />
                   <List>
                         <ListItem component={Link} to="/">
-                              <ListItemIcon>
-                                    {/* <Icon>bar_chart</Icon> */}
-                              </ListItemIcon>
+                              <Styled.ListIcon>
+                                    <HomeIcon />
+                              </Styled.ListIcon>
                               <ListItemText primary="Home" />
                         </ListItem>
                         <ListItem component={Link} to="/about">
-                              <ListItemIcon>
-                                    {/* <Icon>bar_chart</Icon> */}
-                              </ListItemIcon>
+                              <Styled.ListIcon>
+                                    <PersonIcon />
+                              </Styled.ListIcon>
                               <ListItemText primary="About" />
                         </ListItem>
                         <ListItem component={Link} to="/resume">
-                              <ListItemIcon>
-                                    {/* <Icon>bar_chart</Icon> */}
-                              </ListItemIcon>
+                              <Styled.ListIcon>
+                                    <TextSnippetIcon />
+                              </Styled.ListIcon>
                               <ListItemText primary="Resume" />
                         </ListItem>
                         <ListItem component={Link} to="/projects">
-                              <ListItemIcon>
-                                    {/* <Icon>bar_chart</Icon> */}
-                              </ListItemIcon>
+                              <Styled.ListIcon>
+                                    <DvrIcon />
+                              </Styled.ListIcon>
                               <ListItemText primary="Projects" />
                         </ListItem>
+                        <ListItem component={Link} to="/contact-me">
+                              <Styled.ListIcon>
+                                    <ContactPageIcon />
+                              </Styled.ListIcon>
+                              <ListItemText primary="Contact" />
+                        </ListItem>
                         <ListItem component={Link} to="/blog">
-                              <ListItemIcon>
-                                    {/* <Icon>bar_chart</Icon> */}
-                              </ListItemIcon>
+                              <Styled.ListIcon>
+                                    <ArticleIcon />
+                              </Styled.ListIcon>
                               <ListItemText primary="Blog" />
                         </ListItem>
                   </List>
@@ -97,24 +106,24 @@ function NavBar(props) {
                                     MUI
                               </Typography>
                               <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-                                    <Button component={RouterLink} to="/" sx={{ color: '#fff' }}>
+                                    <Styled.Btn component={RouterLink} to="/" sx={{ color: '#fff' }} startIcon={<HomeIcon />}>
                                           Home
-                                    </Button>
-                                    <Button component={Link} to="/about" sx={{ color: '#fff' }}>
+                                    </Styled.Btn>
+                                    <Styled.Btn component={Link} to="/about" sx={{ color: '#fff' }} startIcon={<PersonIcon />}>
                                           About
-                                    </Button>
-                                    <Button component={Link} to="/resume" sx={{ color: '#fff' }}>
+                                    </Styled.Btn>
+                                    <Styled.Btn component={Link} to="/resume" sx={{ color: '#fff' }} startIcon={<TextSnippetIcon />}>
                                           Resume
-                                    </Button>
-                                    <Button component={Link} to="/projects" sx={{ color: '#fff' }}>
+                                    </Styled.Btn>
+                                    <Styled.Btn component={Link} to="/projects" sx={{ color: '#fff' }} startIcon={<DvrIcon />}>
                                           Projects
-                                    </Button>
-                                    <Button component={Link} to="/contact-me" sx={{ color: '#fff' }}>
+                                    </Styled.Btn>
+                                    <Styled.Btn component={Link} to="/contact-me" sx={{ color: '#fff' }} startIcon={<ContactPageIcon />}>
                                           Contact
-                                    </Button>
-                                    <Button component={Link} to="/blog" sx={{ color: '#fff' }}>
+                                    </Styled.Btn>
+                                    <Styled.Btn component={Link} to="/blog" sx={{ color: '#fff' }} startIcon={<ArticleIcon />}>
                                           Blog
-                                    </Button>
+                                    </Styled.Btn>
 
                               </Box>
                         </Toolbar>
@@ -153,3 +162,19 @@ NavBar.propTypes = {
 };
 
 export default NavBar;
+
+
+const Styled = {
+      Btn: styled(Button)`
+& .MuiButton-startIcon {
+margin-right: 4px;
+margin-bottom: 2px;
+}
+`,
+      ListIcon: styled(ListItemIcon)`
+&.MuiListItemIcon-root {
+      color:#1976d2;
+      //margin-left: 16px;
+    },
+    `
+}
